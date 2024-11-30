@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Fact Checker",
+    "version": "1.0",
+    "description": "Fact checker for YouTube clips",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["content-script.js"]
+        }
+    ]
+  }
