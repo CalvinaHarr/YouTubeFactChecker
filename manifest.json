@@ -3,7 +3,7 @@
     "name": "YouTube Fact Checker",
     "version": "1.0",
     "description": "Fact checker for YouTube clips",
-    "permissions": ["activeTab"],
+    "permissions": ["activeTab", "scripting"],
     "action": {
       "default_popup": "popup.html"
     },
