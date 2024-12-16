@@ -1,6 +1,9 @@
+console.log("Content script injected on:", window.location.href);
+
 // Create a button in top bar
 let button = document.createElement('button');
-button.textContent = "Fact Check";
+button.className = 'button';
+button.textContent = '🤓';
 // button.style.padding = "10px";
 // button.style.position = "absolute"; // Position it absolutely within its parent
 // button.style.top = "10px"; // 10 pixels from the top
