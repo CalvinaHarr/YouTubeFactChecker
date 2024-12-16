@@ -1,7 +1,11 @@
 // Create a button in top bar
-let newElement = document.createElement('button');
-newElement.textContent = "Fact Check";
-newElement.style.padding = "10px";
+let button = document.createElement('button');
+button.textContent = "Fact Check";
+button.style.padding = "10px";
+button.style.position = "absolute"; // Position it absolutely within its parent
+button.style.top = "10px"; // 10 pixels from the top
+button.style.left = "10px"; // 10 pixels from the left
+button.style.zIndex = "1000"; // Ensure it appears above other 
 
 //style the button
 
